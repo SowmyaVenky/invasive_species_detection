@@ -34,7 +34,7 @@ def extract_frames(video_path, output_folder):
         # Construct the filename for the current frame
         # Using f-string for formatting with zero-padding (e.g., frame_0000.jpg)
         if( frame_count % 50 ) == 0:
-            frame_filename = os.path.join(output_folder, f"frame3_{frame_count:04d}.jpg")
+            frame_filename = os.path.join(output_folder, f"frame5_{frame_count:04d}.jpg")
 
             # Save the frame as an image file
             cv2.imwrite(frame_filename, image)
@@ -48,7 +48,7 @@ def extract_frames(video_path, output_folder):
 
 # Example usage:
 if __name__ == "__main__":
-    input_video_path = "C:\Venky\\Invasive_Species\\videos\\Nandina\\v3.mp4"  # Replace with your video file path
+    input_video_path = "C:\Venky\\Invasive_Species\\videos\\Nandina\\v5.mp4"  # Replace with your video file path
     output_directory = "C:\Venky\\Invasive_Species\\videos\\Nandina\\extracted_frames"        # Folder to save the frames
 
     extract_frames(input_video_path, output_directory)
