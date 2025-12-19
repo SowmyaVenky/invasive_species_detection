@@ -5,7 +5,7 @@ import os
 import random
 
 # === RTSP stream URL ===
-rtsp_url = 'rtsp://admin:Olfk$1234@192.168.40.206/22'
+rtsp_url = 'rtsp://admin:Olfk$1234@192.168.40.206/12'
 # Define border parameters
 BORDER_SIZE = 20
 BORDER_COLOR = [255, 0, 0] # BGR color for the border (Blue in this case)
