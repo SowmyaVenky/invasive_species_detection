@@ -18,3 +18,8 @@ Examples (PowerShell):
 python scripts\extract_frame.py --video C:\path\to\video.mp4 
 
 ```
+
+## Install POSTGIS in docker.
+```
+docker run --name invasive_db -e POSTGRES_PASSWORD=Shriya2008 -p 5432:5432 -v "C:\Venky\invasive_species_detection\postgres":/var/lib/postgresql/data -d postgis/postgis
+```
