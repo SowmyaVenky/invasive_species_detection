@@ -15,7 +15,7 @@ from time import sleep
 sensor = DistanceSensor(echo=24, trigger=23)
 
 
-VIDEO_PATH = "/home/sowmyavenky/yolo_env/chinese_privet.mp4"
+VIDEO_PATH = "/home/sowmyavenky/yolo_env/chinese_tallow.mp4"
 
 translator = {
     'chinese_privet' : 'Chinese Privet',
